@@ -1,0 +1,19 @@
+# general
+title: RVG Accounting Limited
+author: RVG Accounting Limited
+description: ""
+email_address: info@rvgaccounting.co.uk
+timezone: Europe/London
+
+# urls
+url: "http://rvgaccounting.co.uk"
+baseurl: ""
+
+# build
+permalink: /:year/:month/:day/:title/
+
+# exclude
+exclude:
+- node_modules
+- Gruntfile.js
+- package.json

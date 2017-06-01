@@ -1,0 +1,81 @@
+---
+layout: default
+type: contact
+title: "Contact us"
+author: "RVG Accounting"
+header-img: "assets/img/header/contact.jpg"
+tagline_status: false
+buttons: false
+---
+
+<a  name="contact"></a>
+<div class="content-section-a">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <p class="lead">
+                    <strong>Email us at: </strong> <a href="mailto:info@rvgaccounting.co.uk?subject=Web Contact">info@rvgaccounting.co.uk</a><br><br>
+                    <strong>Call us on: </strong> + 44 (0) 785 232 0651
+                </p>
+                <p class="lead"><strong>Or simply complete the form below:</strong></p>
+                <div class="form-success hidden"></div>
+                <form class="form-custom form-horizontal" name="form-contact" id="form-contact" novalidate autocomplete="false">
+                    <div class="form-fail hidden"></div>
+                    <div class="input-feedback">
+                        <i id="icon-fullname-success" class="fa fa-check"></i>
+                        <i id="icon-fullname-fail" class="fa fa-times"></i>
+                        <label for="fullname" class="sr-only">Full name*</label>
+                        <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Full name*" autocomplete="false">
+                        <p class="lead" id="text-fullname-fail">Please enter your full name.</p>
+                    </div>
+                    <div class="input-feedback">
+                        <i id="icon-email-success" class="fa fa-check"></i>
+                        <i id="icon-email-fail" class="fa fa-times"></i>
+                        <label for="email" class="sr-only">Email address*</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email address*" autocomplete="false">
+                        <p id="text-no-email-fail">Please enter your email address.</p>
+                        <p class="lead" id="text-invalid-email-fail">The email address entered is invalid.</p>
+                    </div>
+                    <div class="input-feedback">
+                        <i id="icon-phonenumber-success" class="fa fa-check"></i>
+                        <i id="icon-phonenumber-fail" class="fa fa-times"></i>
+                        <label for="phonenumber" class="sr-only">Phone number*</label>
+                        <input type="text" class="form-control" name="phonenumber" id="phonenumber" placeholder="Phone number*" autocomplete="false">
+                        <p class="lead" id="text-phonenumber-fail">Please enter your phone number.</p>
+                    </div>
+                    <div class="input-feedback">
+                        <i id="icon-message-success" class="fa fa-check"></i>
+                        <i id="icon-message-fail" class="fa fa-times"></i>
+                        <label for="message" class="sr-only">Message*</label>
+                        <textarea class="form-control" rows="8" name="message" id="message" placeholder="Message*"></textarea>
+                        <p class="lead" id="text-message-fail">Please enter your message.</p>
+                    </div>
+                    <a id="contact-submit" class="btn btn-green btn-lg">Submit</a>
+                </form>
+                <hr>
+                <p class="lead">
+                    <strong>Our registered office: </strong>
+                </p>
+                <div class="lead" style="padding-left: 20px;">
+                    RVG Accounting Limited,<br>
+                    North London Business Park,<br>
+                    Building 3, Oakleigh Road South,<br>
+                    London,<br>
+                    N11 1GN
+                </div>
+                <div class="lead" style="padding-left: 20px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.877946489283!2d-0.15412213422566523!3d51.62544492965471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487619a36074fd75%3A0x20bc82d7e4894c55!2sLondon+N11+1GN!5e0!3m2!1sen!2suk!4v1490647014739" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <hr>
+                <ul class="list-inline intro-social-buttons">
+                    <li>
+                        <a href="{{ '/our-services/' | prepend: site.baseurl | prepend: site.url }}" class="btn btn-lg btn-green">Our services</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/about-us/' | prepend: site.baseurl | prepend: site.url }}" class="btn btn-lg btn-green">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
